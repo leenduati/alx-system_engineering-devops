@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script prints best school 10 times using until
+
+counter=0
+
+until [ $counter -gt 11 ]
+do
+	echo "Best School"
+	((counter=counter+1))
+done
