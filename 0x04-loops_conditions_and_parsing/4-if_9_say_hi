@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #This uses while loop to output text, but pauses on next iteration
 
-while ((i<9)); do
+while ((i<10)); do
 	echo "Best School"
-	if ((i==7));then
+	if ((i==8));then
 		echo "Hi"
 	fi
 	i=$((i+1))
