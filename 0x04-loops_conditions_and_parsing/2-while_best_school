@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script uses a while loop to print best school
+
+while ((i<10)); do
+	echo "Best School"
+	i=$((i+1))
+done
