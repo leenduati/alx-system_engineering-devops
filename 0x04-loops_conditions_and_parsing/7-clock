@@ -8,10 +8,10 @@ m=1
 
 while ((h<13));do
 	echo "Hour: $h"
+	m=$((1))
 	while ((m<60));do
 		echo "$m"
 		m=$((m+1))
 	done
 	h=$((h+1))
-	m=$((1))
 done
