@@ -1,1 +1,1 @@
-# THis repo will contain bash scripts
+# This repo will contain bash scripts
